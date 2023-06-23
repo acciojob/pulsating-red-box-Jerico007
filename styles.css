@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+.box{
+	width:100px;
+	height:100px;
+	background-color:red;
+	animation-name: pulse;
+    animation-duration:  1s;
+	animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {width:105px; height:105px;}
+  25% {width:110px; height:110px;}
+  50%  {width:115px; height:115px;}
+  75% {width:110px; height:110px;}
+  100% {width:105px; height:105px}   
+}
